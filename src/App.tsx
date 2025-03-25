@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-gradient-to-b from-slate-50 to-slate-100">
       {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center text-white">
-        <div 
+        <div
           className="absolute inset-0 z-0"
           style={{
             backgroundImage: 'url("https://images.unsplash.com/photo-1492176273113-2d51f47b23b0?auto=format&fit=crop&q=80")',
@@ -21,7 +21,7 @@ function App() {
         >
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
-        
+
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">30 Days of Prayer</h1>
           <h2 className="text-3xl md:text-4xl font-light mb-8">Draw Closer to Christ</h2>
@@ -47,7 +47,7 @@ function App() {
                 </div>
               </div>
               <div className="absolute -bottom-6 -right-6 bg-rose-500 text-white px-6 py-3 rounded-full transform rotate-12 shadow-lg">
-                <span className="text-2xl font-bold">$8,99</span>
+                <span className="text-2xl font-bold">$9,97</span>
               </div>
             </div>
             <div>
@@ -110,7 +110,7 @@ function App() {
         <div className="max-w-4xl mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold mb-8">About the Devotional</h2>
           <p className="text-lg text-slate-700 mb-8">
-            This devotional offers 30 life-changing prayers, daily reflections to apply biblical 
+            This devotional offers 30 life-changing prayers, daily reflections to apply biblical
             truths to your life, and a new intimacy with Christ. It is a path to deep and lasting change.
           </p>
           <div className="bg-slate-50 p-8 rounded-lg shadow-lg">
