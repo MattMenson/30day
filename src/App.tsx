@@ -21,7 +21,23 @@ function App() {
         >
           <div className="absolute inset-0 bg-black/50"></div>
         </div>
-
+        <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '1525700135483116');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1525700135483116&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
         <div className="relative z-10 max-w-4xl mx-auto text-center px-4">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">30 Days of Prayer</h1>
           <h2 className="text-3xl md:text-4xl font-light mb-8">Draw Closer to Christ</h2>
