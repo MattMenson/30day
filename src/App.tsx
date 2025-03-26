@@ -4,7 +4,7 @@ import { Heart, Book, PenTool, Users, Send, Star, BookOpen, ShoppingCart } from 
 function App() {
   const handleCheckout = () => {
     // Replace this URL with your actual checkout URL
-    window.location.href = "https://your-checkout-url.com";
+    window.location.href = "https://pay.kiwify.com.br/3ODjtH4";
   };
 
   return (
